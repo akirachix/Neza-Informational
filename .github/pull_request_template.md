@@ -1,19 +1,11 @@
 # Engineers Checklist
-
 ## What this PR does?
-This is CI/CD pipeline it will help automate the deployment process of the informational website
-
+- List of updates for features, enhancements, or bugfixes
 ## How can it be tested?
-clone the repository switch to the core/CI-CD branch
-Test the CI/CD pipeline by making a dummy change and pushing it to the branch.
-Observe the automated deployment process in the staging and testing environment.
-
-
+- Please provide step-by-step guide on how to test
+- If web or mobile, screenshots will be very helpful in addition
 # Where is it documented?
-Jira Ticket
-
-https://nezaa.atlassian.net/browse/TW-26
-
+- List JIRA tickets
 ## Backend Updates
 - [ ] Updated Postman Documentation
 	- [ ] Requests
@@ -22,6 +14,4 @@ https://nezaa.atlassian.net/browse/TW-26
 - [ ] Updated Tasks on JIRA
 - [ ] Tested API updates in `dev` environment
 - [ ] CI Checks Passed
-
-
 
