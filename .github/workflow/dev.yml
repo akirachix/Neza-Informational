@@ -2,9 +2,6 @@ name: React.js CI/CD
 on:
   push:
     branches:
-      - chore/CI/CD
-  pull_request:
-    branches:
       - dev
 jobs:
   build:
