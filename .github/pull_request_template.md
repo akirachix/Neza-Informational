@@ -10,7 +10,7 @@ Observe the automated deployment process in the staging and testing environment.
 
 
 # Where is it documented?
-This PR is documented on Jira .Attached below is the link.
+Jira Ticket
 
 https://nezaa.atlassian.net/browse/TW-26
 
