@@ -1,18 +1,37 @@
-# TinyLife_wellness-Informational-Website
+# Projects Template
+# TinyLife_wellness-Infomational 
 <a name="readme-top"></a>
-<h3 align="center">TinyLife_wellness-Informational-Website</h3>
-  <img src="images/logo.png" alt="Logo" width="80" height="80">
-  
-## ABOUT
-Welcome to our TinyLife Wellness informational website!  This website provides information about TinyLife Wellness, a web portal that is backed by a predictive machine learning model that uses historical data on lead poisoning cases in Kenya as well as other countries to predict Kenyan areas at high risk of exposing pregnant women and children to lead poisoning.
+<h3 align="center">TinyLife wellness Informational Website</h3>
+  <!-- <img src="images/logo.png" alt="Logo" width="80" height="80"> -->
+  This README provides a brief explanation of what the informational website provides for new users, a guide on how to locally run the informational website, test the different features, as well as contact information for the development team.
 
-### BUILT WITH
-REACT js
+## Table of Contents
+- [Built With](#built-with)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Contacts](#contacts)
+### Built With
+- React.js
+- On Ubuntu 20.4
 
-## USAGE
-open the website  at http://127.0.0.1/5000 for the demo
 
-## CONTACTS
+### Prerequisites
+- node (Version >=18)
+- npm (Version >=8)
+- vscode IDE >= 1.36
+
+### Installation
+To run this Next project locally, please follow these steps:
+- Clone the repository:
+  "git clone https://github.com/akirachix/Neza-Informatioal.git"
+- Navigate to the project directory:
+  "cd Neza-Informational"
+- Install requirements:
+  "npm install"
+- Run the development server:
+  "npm start"
+
+## Contacts
 Joyeuse Kabanyana - [@Linkedin](https://www.linkedin.com/in/joyeuse-kabanyana) - joyeusekabanyana@gmail.com
 <br>
 Esther Mwangi - [@Linkedin](https://www.linkedin.com/in/esther-mwangi-/) - mwangiestherwambuii@gmail.com
