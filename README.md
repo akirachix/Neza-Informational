@@ -8,7 +8,7 @@
 - [Built With](#built-with)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
-- 
+  
 ### Built With
 - React.js
 - On Ubuntu 20.4
