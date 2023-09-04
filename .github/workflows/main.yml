@@ -2,15 +2,15 @@ name: React.js CI/CD
 on:
   push:
     branches:
-      main
-      dev
-      staging
+      -main
+      -dev
+      -staging
      
   pull_request:
     branches: 
-      main
-      dev
-      staging
+      -main
+      -dev
+      -staging
 jobs:
   build:
     runs-on: ubuntu 20.04
@@ -22,8 +22,8 @@ jobs:
         with:
           node-version: 18
       - name: Install Dependencies
-        run: npm start
+        run: npm install
       - name: Build React App
         run: npm run build
       - name: Run Tests
-        run: npm start
+        run: npm test
