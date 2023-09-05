@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { HiMenu } from "react-icons/hi";
 import { HiX } from "react-icons/hi";
 import './style.css';
+
+
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   const toggleMenu = () => {

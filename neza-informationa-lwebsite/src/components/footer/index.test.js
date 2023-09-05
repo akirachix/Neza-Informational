@@ -2,9 +2,10 @@ import React from "react";
 import { render } from "@testing-library/react";
 import Footer from ".";
 
-describe("Footer", () => {
 
-  it("renders well", () => {
+describe("Test for the footer component", () => {
+
+  it("The footer component and its content renders well", () => {
     const { container , getByAltText} = render(<Footer />);
 
     const logo = getByAltText ("NEZA LOGO");

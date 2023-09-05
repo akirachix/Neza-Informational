@@ -1,6 +1,8 @@
 import React from "react";
 import './style.css'
 import { BsLinkedin} from "react-icons/bs";
+
+
 const Footer=()=>{
 return(
     <>

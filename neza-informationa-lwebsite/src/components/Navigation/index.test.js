@@ -2,9 +2,9 @@ import React from "react";
 import { render, fireEvent } from "@testing-library/react";
 import Navbar from ".";
 
-describe("Navbar Component", () => {
+describe("Tests for the Navbar Component", () => {
   it("renders without errors", () => {
-    const { getByAltText, getByText, container } = render(<Navbar />);
+    const { getByAltText, container } = render(<Navbar />);
     const logo = getByAltText("NEZA LOGO");
     expect(logo).toBeInTheDocument();
     const menuIcon = container.querySelector(".menu-icon");

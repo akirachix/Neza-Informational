@@ -1,16 +1,18 @@
 import Navbar from "../Navigation";
 import Footer from "../footer";
 import React from "react";
+
+
 const Layout = ({ children }) => {
     return (
       <div>
        
-        <header><Navbar/></header>
+        <Navbar/>
         <main>
-            {/* Place other components inside the main tag */}
+            {/* Place the home, about, team components inside the main tag */}
             {children}
         </main>
-        <footer><Footer/></footer>
+        <Footer/>
       </div>
     );
   };
