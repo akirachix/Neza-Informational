@@ -11,11 +11,11 @@ const Navbar = () => {
     <div className="navbar-container">
       <div className="navbar">
       <img src="/images/LOGO.png" alt="NEZA LOGO" />
-        {/* Hamburger menu icon */}
+      
         <div className="menu-icon" onClick={toggleMenu}>
           {showMenu ? <HiX /> : <HiMenu />}
         </div>
-        {/* Navigation links */}
+       
         <div className={`navbar-links ${showMenu ? "show" : ""}`}>
           <p>Home</p>
           <p>About Us</p>
