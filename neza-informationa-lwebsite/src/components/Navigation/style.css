@@ -1,9 +1,8 @@
 .navbar {
     display: flex;
     align-items: center;
-    gap: 2%;
+    gap: 5%;
     color: black;
-    padding: 30px;
   }
   .navbar-links {
     display: flex;
@@ -39,7 +38,7 @@
     margin-left: 5%;
   }
   .btns button {
-    margin-left: 1%;
+    margin-left: 261%;
     padding-left: 35%;
     padding-right: 35%;
     padding-top: 8%;
@@ -76,6 +75,9 @@
   .menu-icon.open .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
+
+
+  
   @media (max-width: 800px) {
     .navbar p {
       display: none;
