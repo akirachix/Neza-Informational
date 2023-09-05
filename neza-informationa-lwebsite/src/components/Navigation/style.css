@@ -103,4 +103,10 @@
     .navbar-links.open {
       display: flex;
     }
+    .navbar {
+      display: flex;
+      align-items: center;
+      gap: 60%;
+      color: black;
+    }
   }

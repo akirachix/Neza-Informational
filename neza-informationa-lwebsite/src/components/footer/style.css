@@ -2,13 +2,15 @@
     background-image: url(/public/images/footer1.jpeg);
     color: white;
     padding: 18px 0;
-    background-position: center;
+    background-position: 0;
     background-repeat: no-repeat;
-    background-size: 100vw;
+    background-size: 100% 100%;
+    opacity: 0.75;
     margin-top: 5%;
     font-family: 'Nunito';
     bottom: 0;
     position:fixed;
+    width: 100%;
   }
   .footer-menu {
     list-style: none;
@@ -42,16 +44,24 @@
   .icons{
     margin-left: 25%;
   }
-  /* Media Queries */
+  @media(max-width:1341){
+    .footer-menu img {
+      width: 100%;
+      
+   
+    }
+  }
   @media (max-width: 768px) {
     .footer-menu {
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(4, 1fr);
+      font-size: 20px;
     }
     .footer-menu li {
       margin-right: 20px;
+
     }
     .footer-menu img {
-      width: 50%;
+      width: 100%;
       margin-left: 10px;
     }
     .footer-menu a {
@@ -63,6 +73,12 @@
     .footer-menu li img{
       height: 20px;
       width: 15px;
+    }
+    .footer2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10%;
     }
   }
   @media (max-width: 480px) {
@@ -81,7 +97,7 @@
       margin-bottom: 10px;
     }
     .footer-menu img {
-      width: 70%;
+      width: 100%;
       margin-left: 0;
     }
     .footer-menu a {
@@ -93,5 +109,24 @@
     .footer2 {
       flex-direction: column;
       gap: 5%;
+    }
+ 
+  }
+  @media (max-width: 480px){
+   
+    .footer {
+      background-image: url(/public/images/footer1.jpeg);
+      color: white;
+      padding: 18px 0;
+      background-position: 0;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      /* background-size: 100vw; */
+      object-fit: cover;
+      margin-top: 5%;
+      font-family: 'Nunito';
+      bottom: 0;
+      position:fixed;
+      width: 100%;
     }
   }
