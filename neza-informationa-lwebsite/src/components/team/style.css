@@ -46,7 +46,8 @@
 .team_title h1 {
     color: #2DCD1F;
     font-size: 60px;
-    margin-left: 5%;
+    text-align: left;
+    margin-left: 6%;
   }
 @media screen and (max-width: 768px) {
   .team-content {
