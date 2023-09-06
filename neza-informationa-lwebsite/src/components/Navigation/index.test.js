@@ -1,6 +1,6 @@
 import React from "react";
 import { render, fireEvent } from "@testing-library/react";
-import Navbar from ".";
+import Navbar from "./";
 
 describe("Tests for the Navbar Component", () => {
   it("renders without errors", () => {
