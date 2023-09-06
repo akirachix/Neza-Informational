@@ -16,20 +16,20 @@ function Role() {
       <div className='planning'>
         <img src='./role-images/planning.png' alt='planning'/>
       <h2>PLANNING</h2>
-        <p>organizations use our predictive model to identify high-risk areas and allocate resources effectively for lead exposure risk reduction.</p>
+        <p>Organizations use our predictive model to identify high-risk areas and allocate resources effectively for lead exposure risk reduction.</p>
         
       </div>
       <div className='testing-cleaning'>
         <div className='testing'>
         <img src='./role-images/testing.png' alt='testing'/>
         <h2>TESTING</h2>
-        <p>organizations conduct comprehensive assessments, including blood tests, soil and water lead content analysis, and air quality monitoring, to validate our model's predictions.</p>
+        <p>Organizations conduct comprehensive assessments, including blood tests, soil and water lead content analysis, and air quality monitoring, to validate our model's predictions.</p>
 
       </div>
         <div className='cleaning'>
         <img src='./role-images/intervention.png' alt='intervention'/>
       <h2>INTERVENTION</h2>
-        <p> organizations implement targeted interventions, provide community support, and continue data-driven monitoring to reduce lead exposure levels and improve public health.</p>
+        <p> Organizations implement targeted interventions, provide community support, and continue data-driven monitoring to reduce lead exposure levels and improve public health.</p>
         </div>
       </div>
     </div>

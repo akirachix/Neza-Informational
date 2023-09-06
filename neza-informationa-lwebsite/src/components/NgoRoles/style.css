@@ -12,7 +12,7 @@
   .role-content p{
     width: 80%;
     text-align: justify;
-    margin-left: 4%;
+    /* margin-left: 4%; */
   }
   
   .planning {
@@ -26,7 +26,7 @@
   
   .planning p {
     padding: 0px 50px 50px 50px;
-    text-align: justify;
+    text-align: center;
   }
   
   .role img {
@@ -114,6 +114,11 @@
     .role-content {
       font-size: 18px;
     }
+    .role-content p{
+      width: 80%;
+      text-align: left;
+      /* margin-left: 1%; */
+    }
     .role{
         margin-top: 75%;
       }
@@ -132,7 +137,7 @@
     }
   
     .role img {
-      width: 70%;
+      width: 30%;
     }
   }
   
