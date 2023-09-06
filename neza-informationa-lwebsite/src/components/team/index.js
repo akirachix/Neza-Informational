@@ -4,7 +4,7 @@ import './style.css'
 import Team from "../../atoms";
 import { BsLinkedin } from "react-icons/bs";
 
-const The_Team=()=>{
+const TheTeam=()=>{
 return(
     <>
  <div className="team_title">
@@ -32,5 +32,5 @@ return(
 </>
 )
 }
-export default The_Team
+export default TheTeam
 
