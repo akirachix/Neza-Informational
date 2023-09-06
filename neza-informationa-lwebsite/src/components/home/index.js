@@ -1,6 +1,7 @@
 import React from "react";
 import './style.css'
 import Slideshow2 from "../../atoms/slideshow-home";
+
 const Home=()=>{
 return(
     <>
