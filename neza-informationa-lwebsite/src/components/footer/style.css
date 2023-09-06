@@ -1,15 +1,28 @@
-.footer {
+ .footer {
     background-image: url(/public/images/footer1.jpeg);
     color: white;
     padding: 18px 0;
     background-position: 0;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    opacity: 0.75;
+     background-size: cover; 
+    background-size: 100% 100%; 
+    opacity: 0.9;
     margin-top: 5%;
+    font-size: larger;
+    font-weight: 900;
     font-family: 'Nunito';
     bottom: 0;
-    position:fixed;
+    position: fixed;
+  
+    left: 0;
+    width: 100%;
+  
+  
+    max-height: 200px;
+
+
+font-family: 'Nunito', sans-serif;
+   
     width: 100%;
   }
   .footer-menu {
@@ -62,7 +75,7 @@
     }
     .footer-menu img {
       width: 100%;
-      margin-left: 10px;
+      /* margin-left: 10px; */
     }
     .footer-menu a {
       font-size: 17px;
@@ -112,21 +125,29 @@
     }
  
   }
-  @media (max-width: 480px){
-   
-    .footer {
-      background-image: url(/public/images/footer1.jpeg);
-      color: white;
-      padding: 18px 0;
-      background-position: 0;
-      background-repeat: no-repeat;
-      background-size: 100% 100%;
-      /* background-size: 100vw; */
-      object-fit: cover;
-      margin-top: 5%;
-      font-family: 'Nunito';
-      bottom: 0;
-      position:fixed;
+
+ 
+  @media (max-width: 425px) {
+    .footer-menu {
+      background-size: cover; 
+      font-size: 8px; 
+      margin-top: 0; 
       width: 100%;
+      height: auto; 
+      text-align: center; 
     }
+    .footer2 {
+      font-size: 8px;
+      margin-top: 0; 
+      width: 100%;
+      text-align: center;
+    }
+    .footer-menu img {
+      width: 10%; 
+      margin-left: 20%; 
+     
+    
+    }
+  
   }
+  
