@@ -43,6 +43,10 @@
 .team-member:hover .member-info {
     opacity: 1;
   }
+
+.linkedin-icons{
+    color: black;
+}
 .team_title h1 {
     color: #2DCD1F;
     font-size: 60px;
