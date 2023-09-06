@@ -1,0 +1,32 @@
+.home-content {
+    perspective: 1000px;
+  }
+  .home-content h1 {
+    position: absolute;
+    margin-top: -20%;
+    font-size: 40px;
+    color: white;
+    width: 30%;
+    margin-left: 6%;
+    z-index: 1;
+  }
+  .home-content img {
+    width: 100vw;
+    height: 60vh;
+    transform: translateZ(-50px);
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  .why {
+    background-color: wheat;
+    margin-top: 2%;
+    width: 90%;
+    margin-left: 5%;
+    color: black;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 25px;
+  }
+  .why h1 {
+    text-align: center;
+  }
