@@ -1,7 +1,7 @@
 
 import React from "react";
-import './style.css'
-import Team from "../../atoms";
+import './style.css';
+import Team from "./teamdata";
 import { BsLinkedin } from "react-icons/bs";
 
 const TheTeam=()=>{

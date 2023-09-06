@@ -17,7 +17,7 @@
 .team-member .img-menu {
     width: 100%;
     height: auto;
-    border-radius: 40px;
+    border-radius: 30px;
     transition: opacity 0.3s;
   }
 .team-member:hover .img-menu {
@@ -49,11 +49,18 @@
     text-align: left;
     margin-left: 6%;
   }
+  @media screen and (max-width: 1030px){
+    .team-member .img-menu {
+        border-radius: 10px;
+      }
+
+  }
 @media screen and (max-width: 768px) {
   .team-content {
       grid-template-columns: repeat(2, 1fr);
       margin-bottom: 20%;
     }
+
   }
 @media screen and (max-width: 480px) {
   .team-content {
@@ -73,3 +80,4 @@
       font-size: 40px;
     }
   }
+
