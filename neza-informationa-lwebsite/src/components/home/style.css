@@ -19,16 +19,21 @@
   }
   .why {
     background-color: wheat;
-    margin-top: 2%;
-    width: 90%;
-    margin-left: 4%;
+    margin: 2%;
     color: black;
     border-radius: 20px;
     padding: 20px;
     font-size: 25px;
+    line-height: 1.5;
   }
   .why h1 {
     text-align: center;
+  }
+  #list{
+    list-style: ol;
+    text-align: start;
+    margin-left: 4%;
+
   }
   /* Media Queries */
 @media screen and (max-width:1150px){

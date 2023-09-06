@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./style.css";
 import slides2 from "../slides2";
 
-const Slideshow2 = () => {
+const Slideshow = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   useEffect(() => {
@@ -39,4 +39,4 @@ const Slideshow2 = () => {
   return <div className="slideshow">{slides2.map(renderSlide)}</div>;
 };
 
-export default Slideshow2;
+export default Slideshow;
