@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import slides2 from "../slides2";
+import slidesData from "./slides-data";
 import "./style.css";
 
 const Slideshow = () => {
@@ -7,7 +7,7 @@ const Slideshow = () => {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentSlide((currentSlide + 1) % slides2.length);
+      setCurrentSlide((currentSlide + 1) % slidesData.length);
     }, 3000);
 
     return () => clearInterval(interval);
@@ -40,7 +40,7 @@ const Slideshow = () => {
     );
   };
 
-  return <div className="slideshow">{slides2.map(renderSlide)}</div>;
+  return <div className="slideshow">{slidesData.map(renderSlide)}</div>;
 };
 
 export default Slideshow;

@@ -1,4 +1,4 @@
-const slides2 = [
+const slidesData = [
     {
       imgSrc: 'slide-images/women2.jpg',
       alt: "product Background",
@@ -19,5 +19,5 @@ const slides2 = [
     },
   ];
   
-  export default slides2;
+  export default slidesData;
   

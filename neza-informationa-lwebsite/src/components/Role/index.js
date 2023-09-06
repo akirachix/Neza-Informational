@@ -7,9 +7,10 @@ function Role() {
     <div className='role'>
       <div className='role-content'>
         <h1>Your Role In The Change</h1>
-        <p>At Regrow, we power the business case for sustainable agriculture.We use scientifically vetted crop and soil models, <br/>
-        connectivity to farm management platforms and terabytes of satellite imagery to support equitable ecosystem markets and programs. <br/>
-        This is how the MRV concept works in practice.</p>
+        <p>Organizations have a pivotal role to play in our mission. They can intervene effectively by implementing critical interventions, whether it's providing 
+          treatment and support to affected communities or advocating for policy changes that prioritize lead-safe environments. Additionally, organizations can contribute 
+          to data generation, providing valuable insights and feedback that help enhance the accuracy and effectiveness of our predictive model, ultimately guiding more targeted
+           and impactful lead exposure reduction strategies.</p>
 
       </div>
       <div className='planning'>

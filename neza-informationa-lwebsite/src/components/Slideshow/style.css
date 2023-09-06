@@ -8,15 +8,16 @@
   .slide img {
     margin-top: 5%;
     width: 40vw;
-    margin-left: 10%;
+    margin-left: 5%;
     height: 60vh;
     border-radius: 20px;
   }
   
   .content {
-   width: 50%;
+   width: 80%;
    margin-top: 15%;
    margin-left: 5%;
+   text-align: justify;
   
   }
   

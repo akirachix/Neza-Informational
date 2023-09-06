@@ -41,4 +41,3 @@ test('renders intervention section with image and content', () => {
 
 
 
-
