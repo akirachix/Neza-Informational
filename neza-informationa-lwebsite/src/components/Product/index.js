@@ -1,12 +1,11 @@
 import React from "react";
 import './style.css'
-// import Slideshow from "../../atoms/slideshow";
 
 const Product=()=>{
 return(
     <>
-    {/* ABOUT */}
-    <div className="about">
+    {/* PRODUCT */}
+    <div className="product">
         <div>
     <h1>The TinyLife Wellness <br/>Model </h1>
 
@@ -14,7 +13,7 @@ return(
     
    <p>Tinylife Wellness is a predictive model that helps organizations at the forefront 
     of protecting pregnant women and children at risk of lead exposure. By considering variables 
-    such as age of a house, proximity to a factory and water sources,the model  predicts the children 
+    such as <span>age of a house, proximity to a factory and water sources</span> ,the model  predicts the children 
     and the women at more risk of exposure for proper allocation of resources.
 </p>
 </div>
@@ -25,7 +24,7 @@ return(
     </div>
 
     <div className="tinylife_Image">
-    <img src="dashboard image/tinylife.png" alt="web portal"/>
+    <img src="dashboard_image/tinylife.png" alt="web portal"/>
     </div>
     </div>
 </>
