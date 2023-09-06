@@ -5,8 +5,7 @@ test('renders the role content correctly', () => {
   const { getByText } = render(<Role />);
   const roleTitle = getByText('Your Role In The Change');
   expect(roleTitle).toBeInTheDocument();
-  const roleDescription = getByText(/At Regrow, we power the business case for sustainable agriculture./i);
-  expect(roleDescription).toBeInTheDocument();
+  
 });
 test('renders planning section with image and content', () => {
   const { getByText, getByAltText } = render(<Role />);

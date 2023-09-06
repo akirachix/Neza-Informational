@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
 import Slideshow from './components/Slideshow';
-import Role from './components/Role';
+import Role from './components/NgoRoles';
 
 function App() {
   return (
