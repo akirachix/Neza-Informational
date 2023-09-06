@@ -7,12 +7,12 @@ function App() {
     <div className='App'>
       <TheTeam/>
 =======
-import Product from './components/Product';
+import TheTeam from './components/team';
 
 function App() {
   return (
-    <div className="App">
-    <Product/>
+    <div className='App'>
+      <TheTeam/>
 >>>>>>> 66cbc175601c36cbca4537abd980b7b68e4e112a
     </div>
   );
