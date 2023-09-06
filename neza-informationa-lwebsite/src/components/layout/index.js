@@ -3,16 +3,16 @@ import Footer from "../footer";
 import React from "react";
 
 
+
 const Layout = ({ children }) => {
     return (
-      <div>
-       
-        <Navbar/>
+      <div>        
+        <Navbar/> 
         <main>
-            {/* Place the home, about, team components inside the main tag */}
+          
             {children}
         </main>
-        <Footer/>
+       <Footer/> 
       </div>
     );
   };

@@ -22,7 +22,7 @@ return(
                     <p>+25470756960</p>
                 </li>
                 <li className="connect">
-                    <a href="/">Connect With Us</a>
+                    <a href="/">Reach Out</a>
                     <p><BsLinkedin className="icons"/></p>
                 </li>
             </ul>

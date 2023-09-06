@@ -1,32 +1,24 @@
 import React, { useState } from "react";
-import { HiMenu } from "react-icons/hi";
-import { HiX } from "react-icons/hi";
-import './style.css';
-
-
+import "./style.css";
 const Navbar = () => {
-  const [showMenu, setShowMenu] = useState(false);
-  const toggleMenu = () => {
-    setShowMenu(!showMenu);
-  };
+  const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className="navbar-container">
-      <div className="navbar">
+    <div className="Navbar">
+      <span className="logo">
       <img src="/images/LOGO.png" alt="NEZA LOGO" />
-      
-        <div className="menu-icon" onClick={toggleMenu}>
-          {showMenu ? <HiX /> : <HiMenu />}
-        </div>
-       
-        <div className={`navbar-links ${showMenu ? "show" : ""}`}>
-          <p>Home</p>
-          <p>About Us</p>
-          <p>Team</p>
-          <p>Contact Us</p>
-          <div className="btns">
-            <button>Register</button>
-          </div>
-        </div>
+      </span>
+      <div className={`nav-items ${isOpen && "open"}`}>
+        <a href="/home">Home</a>
+        <a href="/about">About</a>
+        <a href="/team"> Team</a>
+        <a href="/contact">Contact</a>
+        <button>Register</button>
+      </div>
+      <div
+        className={`nav-toggle ${isOpen && "open"}`}
+        onClick={() => setIsOpen(!isOpen)}
+      >
+        <div className="bar"></div>
       </div>
     </div>
   );
