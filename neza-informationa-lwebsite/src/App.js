@@ -3,8 +3,8 @@ import The_Team from './components/team';
 
 function App() {
   return (
-    <div>
-
+    <div className='App'>
+      <The_Team/>
     </div>
   );
 }
