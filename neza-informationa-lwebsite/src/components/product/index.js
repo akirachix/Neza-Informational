@@ -1,6 +1,6 @@
 import React from "react";
 import './style.css'
-import Slideshow from "../../atoms/slideshow";
+// import Slideshow from "../../atoms/slideshow";
 
 const Product=()=>{
 return(
@@ -25,11 +25,9 @@ return(
     </div>
 
     <div className="tinylife_Image">
-    <img src="images/tinylife.png" alt="web portal"/>
+    <img src="dashboard image/tinylife.png" alt="web portal"/>
     </div>
     </div>
-<Slideshow  />
-
 </>
 )
 }
