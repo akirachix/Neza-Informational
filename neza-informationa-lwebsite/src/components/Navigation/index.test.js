@@ -7,20 +7,19 @@ describe("Tests for the Navbar Component", () => {
     const { getByAltText, container } = render(<Navbar />);
     const logo = getByAltText("NEZA LOGO");
     expect(logo).toBeInTheDocument();
-    const menuIcon = container.querySelector(".menu-icon");
+    const menuIcon = container.querySelector(".nav-toggle"); 
     expect(menuIcon).toBeInTheDocument();
-    const navbarLinks = container.querySelector(".navbar-links");
-    expect(navbarLinks).toHaveClass("navbar-links");
-    expect(navbarLinks).not.toHaveClass("show");
+    const navbarLinks = container.querySelector(".nav-items"); 
+    expect(navbarLinks).not.toHaveClass("open"); 
   });
   
   it("toggle", () => {
     const { container } = render(<Navbar />);
-    const menuIcon = container.querySelector(".menu-icon");
-    const navbarLinks = container.querySelector(".navbar-links");
+    const menuIcon = container.querySelector(".nav-toggle");
+    const navbarLinks = container.querySelector(".nav-items");
 
-    expect(navbarLinks).not.toHaveClass("show");
+    expect(navbarLinks).not.toHaveClass("open");
     fireEvent.click(menuIcon);
-    expect(navbarLinks).toHaveClass("show");
+    expect(navbarLinks).toHaveClass("open"); 
   });
 });
