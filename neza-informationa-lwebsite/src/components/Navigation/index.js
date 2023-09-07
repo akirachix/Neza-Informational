@@ -12,7 +12,7 @@ const Navbar = () => {
         <a href="/about">About</a>
         <a href="/team"> Team</a>
         <a href="/contact">Contact</a>
-        <button>Register</button>
+        <button className="button">Register</button>
       </div>
       <div
         className={`nav-toggle ${isOpen && "open"}`}
