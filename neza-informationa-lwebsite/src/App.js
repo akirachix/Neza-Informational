@@ -6,12 +6,13 @@ import Home from './components/home';
 
 function App() {
   return (
-    <div className="App">
-      <Layout/>
+    <Layout>
+
       <Home/>
       <Product/>
       <TheTeam/>
-    </div>
+    </Layout>
+   
   );
 }
 
