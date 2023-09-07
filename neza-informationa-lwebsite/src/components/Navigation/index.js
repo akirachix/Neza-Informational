@@ -1,6 +1,4 @@
-import Home from "../home";
-import TheTeam from "../team";
-import Product from "../Product";
+
 import React, { useState } from "react";
 
 import "./style.css";
