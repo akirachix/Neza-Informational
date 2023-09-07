@@ -3,6 +3,7 @@
   }
   .role{
     margin-top: 10%;
+    overflow: hidden;
   }
   
   .role-content {
@@ -12,7 +13,7 @@
   .role-content p{
     width: 75%;
     text-align: justify;
-    margin-left: 4%;
+    margin-left: 1%;
   }
   
   .planning {
@@ -91,7 +92,7 @@
       }
     .planning {
       background-color: rgb(4, 59, 4);
-      width: 10%;
+      width: 8%;
       height: 10vh;
       color: white;
       margin-left: 26%;
@@ -104,7 +105,7 @@
     }
     .testing-cleaning .testing,
     .testing-cleaning .cleaning {
-      width: 45%;
+      width: 20%;
       height: 40%;
     }
   
@@ -120,7 +121,8 @@
     .role-content p{
       width: 80%;
       text-align: left;
-      /* margin-left: 1%; */
+      font-size: 15px;
+      margin-left: -5%;
     }
     .role{
         margin-top: 75%;
@@ -133,14 +135,22 @@
       text-align: center;
       border-radius: 100%;
     }
-    .planning,
+    .planning{
+      width: 80%;
+      height: 40vh;
+    }
     .testing-cleaning .testing,
     .testing-cleaning .cleaning {
-      width: 90%;
+      width: 80%;
     }
   
     .role img {
       width: 30%;
     }
   }
-  
+  @media (max-width: 380px) {
+    .planning{
+      width: 80%;
+      height: 53vh;
+    }
+  }

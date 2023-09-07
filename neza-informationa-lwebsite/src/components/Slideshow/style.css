@@ -46,7 +46,7 @@
       width: 80vw;
       margin-left: 3%;
       height: 50vh;
-      height: 50vh;
+      height: 70vh;
     }
     .slide{
       grid-template-columns: 1fr;
@@ -83,8 +83,8 @@
     .content {
       text-align: center;
      margin-top: 20%;
-      margin-left: 50%;
-      width: 90vw;
+      margin-left: 52%;
+      width: 80vw;
       font-size: 20px;
       transform: translate(-50%, -50%);
     }
@@ -110,7 +110,7 @@
     .content {
       width: 80%;
       margin-top: 38%;
-      margin-left: 55%;
+      margin-left: 47%;
       text-align: justify;
      
      }
