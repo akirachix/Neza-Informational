@@ -54,6 +54,7 @@
     margin-left: 6%;
   }
   @media screen and (max-width: 1030px){
+    
     .team-member .img-menu {
         border-radius: 10px;
       }
@@ -66,11 +67,16 @@
     }
 
   }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 375px) {
+  /* .team-member {
+    margin-bottom: 90%;
+  
+  } */
   .team-content {
-      grid-template-columns: 1fr;
-      margin-bottom: 40%;
-    }
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 50%;
+  }
+
   .team-container img {
       height: 20vh;
     }
