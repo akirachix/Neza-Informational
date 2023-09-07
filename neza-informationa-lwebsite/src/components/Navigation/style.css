@@ -51,7 +51,8 @@
    button {
    
    padding: 5px 15px 5px 15px;
-   margin-left: 22%;
+   margin-right: -10%;
+ 
 
     font-size: 18px;
     border-radius: 15px;
@@ -84,7 +85,7 @@
       margin:3%;
     }
     button{
-      margin-left: 4%;
+      margin-left: 8%;
      
     }
     .Navbar > .nav-items {
@@ -116,7 +117,7 @@
     }
     .Navbar > .nav-toggle {
       display: flex;
-      width: 100px;
+      width: 140px;
       height: 100px;
       align-items: center;
       justify-content: center;
@@ -163,7 +164,25 @@
     .nav-items{
       margin-right: 1em;
     }
+    
   }
+  
+    @media (min-width: 1024px) {
+      .nav-items {
+        width: 90%; 
+      }
+      button {
+        margin-right: 0; 
+      }
+      .body{
+        overflow: hidden;
+      }
+      .Navbar{
+        width: 100%;
+      }
+    }
+    
+  
   
   
   
