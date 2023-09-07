@@ -1,4 +1,8 @@
+import Home from "../home";
+import TheTeam from "../team";
+import Product from "../Product";
 import React, { useState } from "react";
+
 import "./style.css";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -8,9 +12,9 @@ const Navbar = () => {
       <img src="/images/LOGO.png" alt="NEZA LOGO" />
       </span>
       <div className={`nav-items ${isOpen && "open"}`}>
-        <a href="/home">Home</a>
-        <a href="/about">About</a>
-        <a href="/team"> Team</a>
+        <a href="../home">Home</a>
+        <a href="../Product">About</a>
+        <a href="../team"> Team</a>
         <a href="/contact">Contact</a>
         <button className="button">Register</button>
       </div>
