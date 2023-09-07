@@ -26,10 +26,10 @@ return(
                     <p><BsLinkedin className="icons"/></p>
                 </li>
             </ul>
-       <div className="footer2">
+       {/* <div className="footer2">
         <p>Nairobi, Kenya</p>
         <p>Copyright@2023 Tinylife Wellness  All rights reserved </p>
-       </div>
+       </div> */}
 </footer>
     </>
 )

@@ -1,7 +1,7 @@
 
     .footer {
       background-image: url(/public/images/footer1.jpeg);
-      color: white;
+      color: white; 
       padding: 18px 0;
       background-position: 0;
       background-repeat: no-repeat;
@@ -12,20 +12,20 @@
       font-size: larger;
       font-weight: 900;
       font-family: 'Nunito';
-      bottom: 0;
-     position: fixed;
-    
-      left: 0;
+       bottom: 0;     
+       /* margin-top: 10%; */
+      left: 0; 
+      /* position: fixed; */
       width: 100%;
-      gap: 15%;
-    
-    
+      gap: 15%;   
       max-height: 200px;
+      /* margin-bottom: 0; */
+      /* border: solid black; */
   
   
   font-family: 'Nunito', sans-serif;
      
-      width: 100%;
+      /* width: 100%; */
     }
     .footer-menu {
       list-style: none;
@@ -51,12 +51,12 @@
     .footer-menu p {
       font-size: 20px;
     }
-    .footer2 {
+    /* .footer2 {
       display: flex;
       justify-content: center;
       align-items: center;
       gap: 10%;
-    }
+    } */
     .icons{
       margin-left: 25%;
     }
@@ -70,6 +70,7 @@
     /* 8************************************************** */
     
     @media(max-width:1341){
+     
       .footer-menu img {
         width: 100%;
         
@@ -77,10 +78,11 @@
       }
     }
     @media (max-width: 768px) {
+      
       .footer-menu {
         grid-template-columns: repeat(4, 1fr);
         font-size: 20px;
-        overflow: hidden;
+        /* overflow: hidden; */
       } 
       
       .footer-menu li {

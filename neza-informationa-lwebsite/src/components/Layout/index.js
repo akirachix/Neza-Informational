@@ -1,7 +1,6 @@
 import Navbar from "../Navigation";
 import Footer from "../Footer";
 import Home from "../home";
-import Product from "../Product";
 import TheTeam from "../team";
 import React from "react";
 
@@ -13,7 +12,6 @@ const Layout = ({ children }) => {
         <Navbar/> 
         <main>
           <Home/>
-          <Product/>
           <TheTeam/>
           
 

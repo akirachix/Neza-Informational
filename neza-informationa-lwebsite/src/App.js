@@ -1,17 +1,21 @@
+// import logo from './logo.svg';
 import './App.css';
 import Layout from './components/Layout';
 import TheTeam from './components/team';
-import Product from './components/Product';
-import Home from './components/home';
+import Role from './components/NgoRoles';
+import Slideshow from './components/Slideshow';
+import Home from './components/home'
 
 function App() {
   return (
-    <Layout>
-
+    <div className='App'>
+      <Layout>
       <Home/>
-      <Product/>
+       <Slideshow/>
+      <Role/>
       <TheTeam/>
     </Layout>
+    </div>
    
   );
 }
