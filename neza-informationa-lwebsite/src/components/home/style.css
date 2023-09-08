@@ -49,8 +49,8 @@
   @media screen and (max-width: 768px) {
     .why{
       
-        margin-top: 80px; /* Adjust the margin to create space for the navbar */
-        padding-top: 20px; /* Add padding to the top of the content for spacing */
+        margin-top: 80px;
+        padding-top: 20px; 
       }
     .about p {
       font-size: 24px;
@@ -63,8 +63,7 @@
       margin-left: 0;
     }
     .team-content {
-      grid-template-columns: repeat(2, 1fr);
-      margin-bottom: 20%;
+      margin-bottom: 130%;
     }
   }
   @media screen and (max-width: 480px) {
