@@ -24,7 +24,7 @@ return(
     </div>
 
     <div className="tinylife_Image">
-    <img src="dashboard_image/tinylife.png" alt="web portal"/>
+    <img src="images/dashboard.png" alt="web portal"/>
     </div>
     </div>
 </>

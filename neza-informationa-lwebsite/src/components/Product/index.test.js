@@ -10,4 +10,3 @@ describe("Product component", () => {
 });
 
 });
-    
