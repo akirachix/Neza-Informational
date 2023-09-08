@@ -9,12 +9,24 @@ return(
  {/* what is it */}
  <div className="why">
     <h1>What is lead exposure and why does it matter?</h1>
-    <p>Lead exposure refers to the ingestion, inhalation, or absorption of lead, a toxic heavy metal, into the human body. Lead is a highly hazardous substance that can have serious health consequences when it enters the body, particularly for children, pregnant women, and vulnerable populations. Here's why lead exposure matters:</p>
+    <p>Lead exposure refers to the ingestion, inhalation, or absorption of lead, a toxic heavy metal, into the <br/> human body. Lead is a highly hazardous substance that can have serious health consequences when it <br/>enters the body, particularly for children, pregnant women, and vulnerable populations. Here's why lead <br/>exposure matters:</p>
     <ul id="list">
-        <li>Health Impact: Lead harms the brain, causes learning disabilities, behavioral issues, and can affect fetal <br/>development during pregnancy.</li>
-        <li>Lifetime Consequences: Effects are often irreversible, especially in children.</li>
-        <li>Vulnerable Populations: Low-income communities are often disproportionately affected.</li>
-        <li>Global Issue: It's a global concern requiring preventive measures like lead-safe housing and clean water.</li>
+        <ul>
+        <li id="z"> <img src="dashboard_image/warning.png" alt="warning"/></li>
+        <li>Health Impact</li>
+        </ul>
+        <ul>
+        <li id="z"><img src="dashboard_image/globe.png" alt="warning"/></li> 
+        <li>Lifetime Consequences</li> 
+        </ul>
+        <ul>
+            <li id="z"><img src="dashboard_image/people.png" alt="warning"/></li>
+            <li>Lifetime Consequences</li>
+        </ul>
+        <ul>
+        <li id="z"><img src="dashboard_image/life.png" alt="warning"/></li> 
+        <li>Lifetime Consequences</li> 
+        </ul>
     </ul>
  </div>
 </>
