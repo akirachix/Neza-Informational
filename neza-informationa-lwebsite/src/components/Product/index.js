@@ -7,7 +7,7 @@ return(
     {/* PRODUCT */}
     <div className="product">
         <div>
-    <h1>The TinyLife Wellness <br/>Model </h1>
+    <h1>The TinyLife Wellness Model </h1>
 
 <div>
     

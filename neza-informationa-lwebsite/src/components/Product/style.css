@@ -15,11 +15,15 @@ body {
   color: #2DCD1F;
   font-size: 50px;
   margin-right: 30%;
+  text-align: start;
+
 }
 
 .product p {
   color: black;
   font-size: 30px;
+  text-align: start;
+
 }
 
 .product button {
@@ -74,7 +78,6 @@ span {
     }
     .tinylife_Image img {
       width: 95%;
-      margin-left: 0;
     }
    
   }
