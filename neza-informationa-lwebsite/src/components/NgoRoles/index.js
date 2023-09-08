@@ -32,7 +32,7 @@ function Role() {
         <div className='intervention'>
         <img src='./role-images/intervention.png' alt='intervention'/>
       <h2>INTERVENTION</h2>
-        <p> Implementing targeted interventions, provide community support, and continue data-driven monitoring to reduce lead exposure levels and improve public health.</p>
+        <p> Organizations implement targeted interventions, provide community support, and continue data-driven monitoring to reduce lead exposure levels and improve public health.</p>
         </div>
       </div>
     
