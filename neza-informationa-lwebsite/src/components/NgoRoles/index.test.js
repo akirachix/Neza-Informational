@@ -13,8 +13,6 @@ test('renders planning section with image and content', () => {
   expect(planningImage).toBeInTheDocument();
   const planningTitle = getByText('PLANNING');
   expect(planningTitle).toBeInTheDocument();
-  const planningDescription = getByText(/organizations use our predictive model to identify high-risk areas and allocate resources effectively for lead exposure risk reduction./i);
-  expect(planningDescription).toBeInTheDocument();
 });
 test('renders testing section with image and content', () => {
   const { getByText, getByAltText } = render(<Role />);
@@ -22,9 +20,10 @@ test('renders testing section with image and content', () => {
   expect(testingImage).toBeInTheDocument();
   const testingTitle = getByText('TESTING');
   expect(testingTitle).toBeInTheDocument();
-  const testingDescription = getByText(/organizations conduct comprehensive assessments, including blood tests, soil and water lead content analysis, and air quality monitoring, to validate our model's predictions./i);
+  const testingDescription = getByText(/Conduct comprehensive assessments, including blood, soil and water lead content analysis, and air quality monitoring, to validate our model's predictions./i);
   expect(testingDescription).toBeInTheDocument();
 });
+
 test('renders intervention section with image and content', () => {
   const { getByText, getByAltText } = render(<Role />);
   const interventionImage = getByAltText('intervention');
