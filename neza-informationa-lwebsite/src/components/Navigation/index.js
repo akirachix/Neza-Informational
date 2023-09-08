@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <div className="Navbar">
       <span className="logo">
-      <img src="/images/LOGO.png" alt="NEZA LOGO" />
+      <img src="/images/LOGO.png" alt="NEZA LOGO"  />
       </span>
       <div className={`nav-items ${isOpen && "open"}`}>
         <a href="/">Home</a>

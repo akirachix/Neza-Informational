@@ -6,6 +6,7 @@
     gap: 5%;
     color: black;
     z-index: 3;
+   
   }
   .nav-items {
     display: flex;
@@ -70,6 +71,15 @@
     }
     .button{
       margin-left: 50%;
+
+    }
+
+    .Navbar{
+      /* background-color: #2DCD1F;
+      height: 100%;
+      list-style: none;
+      margin-top: 24% ; */
+
     }
   }
     @media (max-width: 375px){
@@ -94,16 +104,34 @@
     grid-template-columns: 50px 50px;
     margin-left: -7%;
     }
+
     .Navbar img {
-      width: 15%;
+      width: 95%;
       margin-right: 5%;
       margin-left: 1%;
+      margin-bottom: 360%;
     }
     .logo{
       height: 30;
     }
     .button{
       margin-left: 40%;
+    }
+    
+
+    .Navbar{
+      background-color: #2DCD1F;
+      height: 100%; 
+      position: absolute;
+    }
+    .Navbar > .nav-toggle {
+      display: flex;
+      width: 140px;
+      height: 100px;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      margin-top: -240%;
     }
   }
   @media (max-width: 768px){
@@ -131,9 +159,12 @@
       gap: 5%;
       color: black;
       z-index: 2;
-      position: fixed;
+      position: absolute;
       width: 100%;
       background-color: white;
+      height: 150vh;
+
+     
       top: 0;
     }
     .Navbar img {
@@ -154,7 +185,7 @@
       margin-left: 8%;
     }
     .nav-items a{
-      margin-top: 2%;
+      margin-top: 10%;
       gap: 5%;
       padding: 10px;
       margin-right: 60%;
@@ -189,6 +220,7 @@
       align-items: center;
       justify-content: center;
       cursor: pointer;
+      margin-top: -240%;
     }
     .nav-toggle > .bar {
       position: relative;
