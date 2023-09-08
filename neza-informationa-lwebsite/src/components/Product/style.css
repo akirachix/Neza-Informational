@@ -4,6 +4,7 @@
   border-radius: 20px;
   text-align: justify;
   padding: 6%;
+  margin-top: -5%;
 }
 
 body {
@@ -40,9 +41,10 @@ body {
 
 
 .tinylife_Image img {
-  width: 95%;
-  margin-left: 10%;
-  height: 60vh;
+  width: 110%;
+  margin-left: 1%;
+  margin-top: -17%;
+  height: 90vh;
   border-radius: 20px;
 }
 

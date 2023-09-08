@@ -62,7 +62,7 @@
   }
 @media screen and (max-width: 768px) {
   .team-content {
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(1, 1fr);
       margin-bottom: 20%;
     }
 
@@ -73,7 +73,7 @@
   
   } */
   .team-content {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     margin-bottom: 50%;
   }
 
