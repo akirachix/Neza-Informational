@@ -5,12 +5,14 @@ import TheTeam from './components/team';
 import Role from './components/NgoRoles';
 import Slideshow from './components/Slideshow';
 import Home from './components/home'
+import Product from './components/Product';
 
 function App() {
   return (
     <div className='App'>
       <Layout>
       <Home/>
+      <Product/>
        <Slideshow/>
       <Role/>
       <TheTeam/>

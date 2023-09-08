@@ -3,6 +3,7 @@ import './style.css'
 import { BsLinkedin} from "react-icons/bs";
 
 
+
 const Footer=()=>{
 return(
     <>
@@ -26,10 +27,7 @@ return(
                     <p><BsLinkedin className="icons"/></p>
                 </li>
             </ul>
-       {/* <div className="footer2">
-        <p>Nairobi, Kenya</p>
-        <p>Copyright@2023 Tinylife Wellness  All rights reserved </p>
-       </div> */}
+      
 </footer>
     </>
 )

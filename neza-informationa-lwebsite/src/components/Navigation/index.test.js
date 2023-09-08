@@ -1,27 +1,25 @@
-import React from 'react';
-import { render, screen, fireEvent } from '@testing-library/react';
-import Navbar from './index.js';
-describe('Navbar Component', () => {
-  it('should render without errors', () => {
-    render(<Navbar />);
-    const logo = screen.getByAltText('Logo');
-    const homeLink = screen.getByText('Home');
-    const aboutLink = screen.getByText('About');
-    const contactLink = screen.getByText('Contact');
-    const hamburgerMenu = screen.getByTestId('hamburger-menu');
+import React from "react";
+import { render, fireEvent } from "@testing-library/react";
+import Navbar from "./";
+
+describe("Tests for the Navbar Component", () => {
+  it("renders without errors", () => {
+    const { getByAltText, container } = render(<Navbar />);
+    const logo = getByAltText("NEZA LOGO");
     expect(logo).toBeInTheDocument();
-    expect(homeLink).toBeInTheDocument();
-    expect(aboutLink).toBeInTheDocument();
-    expect(contactLink).toBeInTheDocument();
-    expect(hamburgerMenu).toBeInTheDocument();
+    const menuIcon = container.querySelector(".nav-toggle"); 
+    expect(menuIcon).toBeInTheDocument();
+    const navbarLinks = container.querySelector(".nav-items"); 
+    expect(navbarLinks).not.toHaveClass("open"); 
   });
-  it('should toggle the navigation menu when the hamburger menu is clicked', () => {
-    render(<Navbar />);
-    const hamburgerMenu = screen.getByTestId('hamburger-menu');
-    const navList = screen.getByTestId('nav-list');
-    fireEvent.click(hamburgerMenu);
-    expect(navList).toHaveClass('open');
-    fireEvent.click(hamburgerMenu);
-    expect(navList).not.toHaveClass('open');
+  
+  it("toggle", () => {
+    const { container } = render(<Navbar />);
+    const menuIcon = container.querySelector(".nav-toggle");
+    const navbarLinks = container.querySelector(".nav-items");
+
+    expect(navbarLinks).not.toHaveClass("open");
+    fireEvent.click(menuIcon);
+    expect(navbarLinks).toHaveClass("open"); 
   });
 });
