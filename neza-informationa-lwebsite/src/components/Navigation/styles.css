@@ -31,7 +31,8 @@ a {
   z-index: 999;
 }
 .nav img {
-  width: 15%;
+  width: 25%;
+  margin-left: -20%;
 }
 .nav__brand {
   text-transform: uppercase;
@@ -52,19 +53,40 @@ a {
   background: rgb(204, 204, 204);
   transition: 0.3s ease-in;
 }
-button{
-  padding: 13px;
+/* button{
+  padding: 8px;
   border-radius: 20px;
   font-size: 20px;
   background-color: transparent;
   border: solid 1px #2DCD1F;
   color: #2DCD1F;
+} */
+ button {
+  padding: 8px 30%;
+  font-size: 18px;
+  border-radius: 15px;
+  border: solid 1px #2DCD1F;
+  background-color: #2DCD1F;
+  color: white;
+}
+button:hover {
+  background-color: #2DCD1F;
+  color: white;
+  transform: scale(1.1);
+  cursor: pointer;
+  transition: .1s;
 }
 @media screen and (max-width: 768px) {
   .nav__toggler {
     display: block;
     cursor: pointer;
   }
+
+  .nav img {
+    width: 20%;
+    margin-left: -1%;
+  }
+  
   .nav__menu {
     position: fixed;
     top: 10vh;
@@ -91,7 +113,6 @@ button{
 .toggle .line3 {
   transform: rotate(45deg) translate(-4px, -5px);
 }
-
 
 
 
