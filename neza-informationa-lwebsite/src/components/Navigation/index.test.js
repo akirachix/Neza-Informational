@@ -1,25 +1,49 @@
-import React from "react";
-import { render, fireEvent } from "@testing-library/react";
-import Navbar from "./";
+import React from 'react';
+import { render, fireEvent } from '@testing-library/react';
+import Navbar from './';
 
-describe("Tests for the Navbar Component", () => {
-  it("renders without errors", () => {
-    const { getByAltText, container } = render(<Navbar />);
-    const logo = getByAltText("NEZA LOGO");
+describe('Navbar component', () => {
+  it('renders without crashing', () => {
+    render(<Navbar />);
+  });
+
+  it('displays the brand logo', () => {
+    const { getByAltText } = render(<Navbar />);
+    const logo = getByAltText('img');
     expect(logo).toBeInTheDocument();
-    const menuIcon = container.querySelector(".nav-toggle"); 
-    expect(menuIcon).toBeInTheDocument();
-    const navbarLinks = container.querySelector(".nav-items"); 
-    expect(navbarLinks).not.toHaveClass("open"); 
   });
-  
-  it("toggle", () => {
-    const { container } = render(<Navbar />);
-    const menuIcon = container.querySelector(".nav-toggle");
-    const navbarLinks = container.querySelector(".nav-items");
 
-    expect(navbarLinks).not.toHaveClass("open");
-    fireEvent.click(menuIcon);
-    expect(navbarLinks).toHaveClass("open"); 
+  it('toggles the menu when the toggler is clicked', () => {
+    const { getByTestId, getByText } = render(<Navbar />);
+    const toggler = getByTestId('nav-toggler');
+    const menu = getByTestId('nav-menu');
+
+    expect(menu).not.toHaveClass('nav__active');
+
+    fireEvent.click(toggler);
+
+    expect(menu).toHaveClass('nav__active');
+
+    fireEvent.click(toggler);
+
+    expect(menu).not.toHaveClass('nav__active');
   });
+
+  it('toggles the icon when the toggler is clicked', () => {
+    const { getByTestId } = render(<Navbar />);
+    const toggler = getByTestId('nav-toggler');
+
+    expect(toggler).not.toHaveClass('toggle');
+
+    fireEvent.click(toggler);
+
+    expect(toggler).toHaveClass('toggle');
+
+    fireEvent.click(toggler);
+
+    expect(toggler).not.toHaveClass('toggle');
+  });
+
+
+
 });

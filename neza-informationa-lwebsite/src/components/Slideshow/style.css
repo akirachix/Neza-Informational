@@ -37,11 +37,24 @@
   .slideshow {
     height: 70vh;
     overflow: hidden;
+    
+     
+      
+    
    
   }
   
   /* Media Queries */
   @media screen and (max-width: 1500px) {
+    .slideshow {
+      height: 70vh;
+      overflow: hidden;
+      
+    
+        
+      
+     
+    }
     .slide img {
       width: 80vw;
       margin-left: 3%;
@@ -69,9 +82,19 @@
     }
   }
   @media screen and (max-width: 768px) {
+    .slideshow {
+      height: 70vh;
+      overflow: hidden;
+      
+        /* margin-top: 80px;  */
+        
+      
+     
+    }
     .slide{
       grid-template-columns: 1fr;
       height: 100vh;
+      
       
     }
     .slide img {
@@ -101,6 +124,15 @@
   }
   
   @media screen and (max-width: 480px) {
+    .slideshow {
+      height: 70vh;
+      overflow: hidden;
+      
+        /* margin-top: 80px;  */
+        
+      
+     
+    }
     .slide img {
       width: 90vw;
       margin-left: 3%;
@@ -123,5 +155,17 @@
     .content p {
       font-size: 18px;
     }
+  }
+  /* ********************MARGIN TOP */
+  @media screen and (max-width: 375px){
+    .slideshow {
+      height: 70vh;
+      margin-top: 30%;
+   
+        
+      
+     
+    }
+
   }
   
