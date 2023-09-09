@@ -4,7 +4,7 @@ import Layout from './components/Layout';
 import TheTeam from './components/team';
 import Role from './components/NgoRoles';
 import Slideshow from './components/Slideshow';
-import Home from './components/home'
+import Home from './components/Home'
 import Product from './components/Product';
 
 function App() {

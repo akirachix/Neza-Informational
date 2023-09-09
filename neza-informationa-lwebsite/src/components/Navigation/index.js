@@ -17,7 +17,7 @@ function Navbar() {
       <a href="/" className="nav__brand">
         <img src="/images/LOGO.png" alt="img"/>
       </a>
-      <ul className={active}>
+      <ul data-testid="nav-menu" className={active}>
         <li className="nav__item">
           <a href="/home" className="nav__link">
             Home
@@ -25,7 +25,7 @@ function Navbar() {
         </li>
         <li className="nav__item">
           <a href="/about" className="nav__link">
-            About us
+            About 
           </a>
         </li>
         <li className="nav__item">
@@ -35,7 +35,7 @@ function Navbar() {
         </li>
         <li className="nav__item">
           <a href="skills" className="nav__link">
-            Contact Us
+            Contact 
           </a>
         </li>
         <li className="nav__item">
@@ -44,7 +44,7 @@ function Navbar() {
           </a>
         </li>
       </ul>
-      <div onClick={navToggle} className={icon}>
+      <div data-testid="nav-toggler"onClick={navToggle} className={icon}>
         <div className="line1"></div>
         <div className="line2"></div>
         <div className="line3"></div>
