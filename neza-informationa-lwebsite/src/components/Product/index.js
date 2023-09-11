@@ -3,7 +3,7 @@ import './style.css'
 const Product=()=>{
 return(
     <>
-    {/* PRODUCT */}
+    <section id="product">
     <div className="product">
         <div>
     <h1>The TinyLife Wellness Model </h1>
@@ -22,6 +22,10 @@ return(
     <img src="images/dashboard.png" alt="web portal"/>
     </div>
     </div>
+
+    </section>
+    {/* PRODUCT */}
+   
 </>
 )
 }

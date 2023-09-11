@@ -7,7 +7,8 @@ import { BsLinkedin} from "react-icons/bs";
 const Footer=()=>{
 return(
     <>
-<footer className="footer">
+    <section id="footer">
+    <footer className="footer">
             <ul className="footer-menu">
             <li>
                     <img src="/images/LOGO.png" alt="NEZA LOGO" />
@@ -29,6 +30,8 @@ return(
             </ul>
       
 </footer>
+    </section>
+
     </>
 )
 }
