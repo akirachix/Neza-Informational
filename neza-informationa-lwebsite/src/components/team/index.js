@@ -7,7 +7,8 @@ import { BsLinkedin } from "react-icons/bs";
 const TheTeam=()=>{
 return(
     <>
- <div className="team_title">
+    <section id="team">
+    <div className="team_title">
             <h1>Team</h1>
         </div>
 
@@ -28,6 +29,9 @@ return(
     </div>
 </div>
 
+
+    </section>
+ 
 
 </>
 )
