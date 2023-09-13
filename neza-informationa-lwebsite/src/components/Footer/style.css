@@ -34,7 +34,9 @@
       grid-template-columns: repeat(4, 1fr);
     }
     .footer-menu img{
-      margin-left: 39.9%;
+     width: 27%;
+       margin-left: 33.9%; 
+      /* margin-left: -0.5%; */
     }
     .footer-menu li {
       margin-right: 50px;
@@ -91,6 +93,7 @@
       
       .footer-menu li {
         margin-right: 20px;
+        
   
       }
    
@@ -101,9 +104,9 @@
         font-size: 16px;
       }
       .footer-menu li img{
-        height: 4vh;
+        height: 5vh;
         width: 20%;
-        margin-left: -80%;
+        margin-left: -72%;
 
       }
       .footer2 {
@@ -163,7 +166,7 @@
         text-align: center;
       }
       .footer-menu img {
-        width: 10%; 
+        width: 30%; 
         margin-left: 20%; 
        
       
